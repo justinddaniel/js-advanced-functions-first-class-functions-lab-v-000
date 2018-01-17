@@ -5,10 +5,8 @@ const returnLastTwoDrivers = function(array) { let newarray = []; newarray.push(
 
 const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers]
 
-function createFareMultiplier (integer) {  
- return function (integer) {
+function createFareMultiplier (integer) {
   return function (fare) {
     return (fare * integer);
     };
   };
-}
